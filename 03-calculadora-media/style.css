@@ -111,6 +111,24 @@ button:hover {
   justify-content: center;
 }
 
+/* - Cores do resultado:
+  - Aprovado → `#14532d`
+  - Recuperação → `#713f12`
+  - Reprovado → `#7f1d1d`  */
+
+.resultado.aprovado{
+ background-color: #14532d ;
+}
+
+.resultado.recuperacao{
+  background-color: #713f12;
+}
+
+.resultado.reprovado{
+  background-color: #7f1d1d;
+}
+
+
 footer {
   display: flex;
   align-items: flex-end;
