@@ -1,7 +1,6 @@
 'use strict'
 
 
-
 function removerClasses(){
 
     const resultado = document.getElementById('resultado')
@@ -28,14 +27,11 @@ function calcularDesconto(){
     const desconto = document.getElementById('desconto')
     const resultado = document.getElementById('resultado')
 
-    // Converte para número
-    const valor = Number(preco.value)
-    const porcentagem = Number(desconto.value)
 
     // Calculo do novo preço
-    const precoDesconto = (valor * porcentagem) / 100
-    const novoPreco = valor - precoDesconto
-    resultado.textContent = novoPreco
+    const precoDesconto = (preco.value * desconto.value) / 100
+    const novoPreco = preco.value - precoDesconto
+    resultado.textContent = `Valor economizado: R$ ${novoPreco.toFixed(1)}`
 
 
     if (porcentagem < 5){

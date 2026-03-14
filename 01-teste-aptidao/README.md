@@ -1,6 +1,8 @@
 # TUTORIAL 
 
-## 1. Crie 2 classes no CSS que contém 2 elementos.
+## 1. Coloque ID nos componentes do HTML que irá utilizar
+
+## 2. Crie 2 classes no CSS que contém 2 elementos.
 
 Código:
 ```css
@@ -15,7 +17,7 @@ Código:
 
 ```
 
-## 2. No JS coloque o Script abaixo: 
+## 3. No JS coloque o Script abaixo: 
 
 ```javascript
 

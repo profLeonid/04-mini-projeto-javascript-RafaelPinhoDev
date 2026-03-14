@@ -94,6 +94,8 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   transition: background-color 0.2s;
+  margin-top:  1em;
+  margin-bottom: 1em;
 }
 
 button:hover {
@@ -110,6 +112,35 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
+
+/* Resultados */
+
+/* "abaixo-peso" , "peso-normal , "sobrepeso" , "obesidade-i" , "obesidade-ii" , "obesidade-iii" */
+
+.resultado.abaixo-peso{
+  background-color: #1e3a5f;
+}
+
+.resutado.peso-normal{
+  background-color:#14532d ;
+}
+
+.resultado.sobrepeso{
+  background-color: #713f12;
+}
+
+.resultado.obesidade-i{
+  background-color: #7f1d1d;
+}
+
+.resultado.obesidade-ii{
+  background-color: #6b0f0f;
+}
+
+.resultado.obesidade-iii{
+  background-color:#450a0a ;
+}
+
 
 footer {
   display: flex;
